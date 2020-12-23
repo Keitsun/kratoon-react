@@ -1,0 +1,10 @@
+.Webtoon{
+    width: 250px;
+    height: 350px;
+    border: 1px solid white;
+}
+
+.Webtoon .Thumbnail{
+    width: 100%;
+    height: 100%;
+}

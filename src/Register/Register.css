@@ -1,0 +1,21 @@
+.Register{
+    background-color: #16120f;
+    height: 100vh;
+    margin-top: -20px;
+}
+
+.form-container{
+    padding: 0 40px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.h1{
+    padding: 50px;
+    margin-left: auto;
+}
+
+
+.label{
+    color: white;
+}

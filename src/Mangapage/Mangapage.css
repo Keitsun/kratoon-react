@@ -1,0 +1,16 @@
+.Mangapage{
+    background-color: #16120f;
+    height: 350vh;
+    margin-top: -20px;
+}
+
+h1{
+    margin-left: -950px;
+}
+
+.cards-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    margin-top: 20px;
+}

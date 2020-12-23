@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Header ul{
+  background: #ffcc00;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 50px;
+    margin-bottom: 0px;
+}
+
+.logo{
+  font-size: 18px;
+  font-weight: 700;
+  color: #16120f;
+}
+
+.nav li{
+  padding: 0 30px;
+  font-family: 'Changa', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #16120f;
+  list-style-type: none;
+}
+.nav li link{
+  text-decoration: none;
+  list-style-type: none;
+}

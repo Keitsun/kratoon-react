@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+
+.body{
+    background-color: #16120f;
+    height: 350vh;
+}
+
+.Thumbnail{
+    width: 100%;
+}
+
+.Mangacontainer{
+    margin-top: 30px;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    color: #ffcc00;
+    margin-left: -1050px;
+    margin-top: 20px;
+}
