@@ -1,5 +1,31 @@
 .mangadetail{
     background-color: #16120f;
-    height: 350vh;
+    height: 100vh;
     margin-top: -20px;
+}
+
+.manga-detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px;
+}
+
+.img-container{
+    width: 20%;
+    margin-left: -950px;
+    margin-right: 40px;
+}
+
+.info-contaier{
+padding-right: 200px;
+color: white;
+}
+
+.info-detail{
+    color: white;
+}
+
+.tr{
+    color: white;
 }

@@ -1,11 +1,14 @@
 import './App.css';
 import Header from './Header/Header';
 import Home from './Body/Body';
-import Webtoonpage from './Webtoonpage/Webtoonpage';
 import Mangapage from './Mangapage/Mangapage';
 import Uploadstime from './Uploadstime/Uploadstime';
 import Register from './Register/Register';
 import Login from './Login/Login';
+import Addmanga from './Addmanga/Addmanga';
+import Addcategory from './Addcategory/Addcategory';
+import Mangadetail from './Mangadetail/Mangadetail';
+
 // import './Header/Header';
 import {
   BrowserRouter as Router,
@@ -23,6 +26,12 @@ function App() {
         <nav className="Header">
           <ul>
             <li>
+              <Link to="/addcategory">إضافة كاتيجوري</Link>
+            </li>
+            <li>
+              <Link to="/addmanga">إضافة مانجا</Link>
+            </li>
+            <li>
               <Link to="/login">دخول</Link>
             </li>
             <li>
@@ -34,9 +43,7 @@ function App() {
             <li>
               <Link to="/mangas">مانجا</Link>
             </li>
-            {/* <li>
-              <Link to="/webtoons">ويبتون</Link>
-            </li> */}
+          
             <li>
               <Link to="/">الرئيسية</Link>
             </li>
@@ -51,10 +58,6 @@ function App() {
                 <Home />
             </Route>
 
-            <Route path="/webtoons">
-                <Webtoonpage />
-            </Route>
-
             <Route path="/mangas">
                 <Mangapage />
             </Route>
@@ -66,7 +69,19 @@ function App() {
             </Route>  
             <Route path="/login">
                 <Login />
+            </Route> 
+            <Route path="/addmanga">
+                <Addmanga />
+            </Route>    
+            <Route path="/addcategory">
+                <Addcategory />
             </Route>     
+            <Route path="/mangadetail/:id">
+                <Mangadetail />
+            </Route>
+            <Route path="/test">
+                <Mangadetail />
+            </Route> 
         </Switch>
       </div>
 </Router>
